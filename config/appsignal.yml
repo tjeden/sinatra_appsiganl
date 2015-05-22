@@ -1,0 +1,13 @@
+default: &defaults
+  push_api_key: <%= ENV['APPSIGNAL_PUSH_API_KEY'] %>
+  name: "Sinatra Test"
+
+development:
+  <<: *defaults
+  debug: true
+  active: true
+
+production:
+  <<: *defaults
+  active: true
+  debug: true

@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'tilt', '1.3.7'
+gem 'sinatra-contrib'
+gem 'sinatra'
+gem 'tiny_tds', git: 'https://github.com/rails-sqlserver/tiny_tds.git'
+gem 'minitest'
+gem 'mocha'
+gem 'timecop'
+gem 'appsignal'
