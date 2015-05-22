@@ -13,3 +13,4 @@ This doesn't:
 Testing URL:
 
     curl http://localhost:9292/test
+    curl http://localhost:9292/error
